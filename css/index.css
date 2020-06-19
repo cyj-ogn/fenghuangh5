@@ -1,0 +1,110 @@
+/* logo */
+.feng-hd{
+    width: 100%;
+    height: 0.8rem;
+    overflow: hidden;
+}
+.feng-hd img{
+    display: block;
+    margin: 0.215rem auto;
+    width: 1.95rem;
+    height: 0.37rem;
+}
+/* 导航 */
+.feng-nav{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    display: flex;
+}
+.feng-nav a{
+    /* 平分 100分几份 字数相等用1*/
+    /* flex: 1; */
+    padding: 0 0.27rem;
+    text-align: center;
+    color: #727272;
+    font-size: 0.36rem;
+}
+.feng-nav .active{
+    color: #f44343;
+}
+/* 轮播图 */
+.swiper-slide img{
+    width: 100%;
+}
+.swiper-pagination{
+    padding-right: 0.3rem;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 0.2rem;
+    color: #004175;
+}
+.swiper-pagination-current{
+    font-size: 0.36rem;
+    color: #f44343;
+}
+/* .swiper-slide{
+    position: relative;
+}
+.swiper-txt{
+    width: 100%;
+    height: 0.8rem; 
+    position: absolute;
+    top: 0;
+    bottom: 0.8rem;
+    background:rgba(247,247,247,1);
+    opacity:0.8;
+}
+.swiper-txt h3{
+    width:4rem;
+    height:0.36rem;
+    font-size:0.36rem;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(59,150,244,1);
+    line-height:0.44rem;
+    z-index: 2;
+}
+.swiper-txt2{
+    background:linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8),rgba(0,0,0,-0.03));
+} */
+/* 左图右文 */
+.feng-sec{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0.24rem 0.3rem;
+}
+.feng-sec .pic{
+    width: 1.82rem;
+    height: 1.3rem;
+    margin: 0 0.32rem 0 0;
+    padding: 0;
+}
+.feng-sec .pic img{
+    width: 100%;
+    height: 100%;
+}
+.feng-sec .txt{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    /* 控制子元素垂直排列 两侧对齐 */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: justify;
+}
+.feng-sec .txt h2{
+    /* 多行文本出现省略号 */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.feng-sec .txt p{
+    /* 控制子元素水平排列 两端对齐 */
+    display: flex;
+    justify-content: space-between;
+}

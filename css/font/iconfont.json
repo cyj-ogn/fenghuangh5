@@ -1,0 +1,44 @@
+{
+  "id": "1893337",
+  "name": "xinlang",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "798101",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "1316944",
+      "name": "首页_竖杠_时间提醒",
+      "font_class": "shouye_shugang_shijiantixing",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "4303877",
+      "name": "人",
+      "font_class": "ren",
+      "unicode": "e6c5",
+      "unicode_decimal": 59077
+    },
+    {
+      "icon_id": "5799980",
+      "name": "设置",
+      "font_class": "yunliankeji_gongyinglianfuben",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "7949503",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    }
+  ]
+}
